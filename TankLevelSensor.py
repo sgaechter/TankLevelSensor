@@ -10,7 +10,7 @@
 # calculates the average and prints the result.                                  #
 # The Script is designed for Python 3 on RaspberryPi                             #
 ##################################################################################
-# Adapted by Sven Gaechter, info@allround-service.biz, published under 
+# Adapted by Sven Gaechter, info@allround-service.biz, published under https://github.com/sgaechter/TankLevelSensor.git
 # Credits: originally coded by Bracew, published on https://forum-raspberrypi.de/forum/thread/7428-heizoel-tankstand-oder-verbrauchs-fernablesung-mit-raspi-geloest-beitrag-21/?pageNo=2
 
 # import required modules
