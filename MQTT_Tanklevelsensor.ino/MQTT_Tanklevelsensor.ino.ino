@@ -17,8 +17,8 @@
 const int gasPin = A0;                    // Luftqualitäts-Pin = A0
 
 const char* host = "192.168.178.4";
-const char* ssid = "Chickenpocks";
-const char* password = "0s7v1e4n2g2a6";
+const char* ssid = "Your_SSID";
+const char* password = "Your_Wireless_Password";
 
 //Variables
 float t = 0.0;
