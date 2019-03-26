@@ -13,6 +13,6 @@ MQTT_Tanklevelsensor.ino
 
 This Version ist built for ESP8266 with MQTT Protocol.
 On the ESP there is the Possibility to connect a Climate Sensor (DHT22) and the Ultrasonic Sensor.
-The Values are pushed by MQTT to a broker like Mosquito on Raspberry pi or simmilar (No Login credentials are implemented jet)
+The Values are pushed by MQTT to a broker like Mosquito on Raspberry pi or simmilar (No Login credentials are implemented yet)
 
 Check the in Code comments to configure for your needs.
