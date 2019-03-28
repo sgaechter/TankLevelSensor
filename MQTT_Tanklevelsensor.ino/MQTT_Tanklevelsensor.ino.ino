@@ -9,6 +9,7 @@
 #define TRIGGER_PIN  D6         // Arduino pin tied to trigger pin on the ultrasonic sensor.
 #define ECHO_PIN     D7         // Arduino pin tied to echo pin on the ultrasonic sensor.
 #define MAX_DISTANCE 200        // Maximum distance we want to ping for (in centimeters). Maximum sensor distance is rated at 400-500cm.
+#define CLIENTID "ESP8266_WS-"     // Name of the Module (eg. ESP8266-WS- =WaterSensor). The code adds another random ID to it, so the Module has unique ID in the whole MQTT-Network.
 
 #define DHTTYPE DHT22
 #define DHTPIN 4
@@ -75,7 +76,7 @@ void connect() {
   while (!mqtt.connected()) {
     Serial.print("Attempting MQTT connection...");
     // Create a random client ID
-    String clientId = "ESP8266Client-";
+    String clientId = CLIENTID;
     clientId += String(random(0xffff), HEX);
     // Attempt to connect
     if (mqtt.connect(clientId.c_str())) {
