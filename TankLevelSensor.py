@@ -51,7 +51,7 @@ def MeasureDistance():
 # To examine the max Level check the Level of the Liquid when the tank ist fully filled (ex. 4500liters).
 maxlevel = 150
 
-# max filling quantity of the tank
+# max filling quantity of the tank in Liter
 maxFillment = 4500
 
 
